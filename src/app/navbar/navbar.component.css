@@ -1,0 +1,54 @@
+.align {
+  padding-top: 9vh;
+  padding-left: 60vw;
+}
+#logo {
+  margin-top: -3vw;
+  padding-left: 4vw;
+  outline: none;
+  height: 200px;
+}
+.row {
+  display: inline-flex;
+}
+
+.btn-btn {
+  padding-left: 10px;
+  text-align: right;
+  border: none;
+  background-color: transparent;
+  font: normal normal normal 16px/22px Open Sans;
+  color: #0e0b6e;
+}
+
+@media only screen and (max-width: 1500px) {
+  .align {
+    float: left;
+    margin-left: -6%;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 2150px) {
+  .align {
+    float: left;
+    margin-left: -9%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .btn-btn {
+    display: block !important;
+  }
+  #logo {
+    max-width: 20vw !important;
+  }
+  .row {
+    display: flex;
+  }
+  .align {
+    margin-left: 10vw !important;
+    padding-left: 0px;
+    padding-top: 5vh;
+    margin-top: 4vw;
+  }
+}

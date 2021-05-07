@@ -1,0 +1,282 @@
+.shipment-details-container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #0e0b6e26;
+  border-radius: 48px;
+  opacity: 1;
+  margin-left: 11vw;
+  margin-right: 6vw;
+  margin-top: 5vh;
+}
+
+.icon {
+  max-width: 2vw;
+  min-width: 2vw;
+}
+
+.padding {
+  margin-left: 3vw;
+}
+.row {
+  padding-left: 5vw;
+  display: -webkit-box;
+}
+.display {
+  display: flex;
+}
+
+.ship-title {
+  text-align: left;
+  font: normal normal bold 32px/43px Open Sans;
+  letter-spacing: 0px;
+  color: #0e0b6e;
+  opacity: 1;
+  padding-top: 4vh;
+  margin-bottom: 1vh;
+}
+.ship-id {
+  text-align: left;
+  font: normal normal normal 22px Open Sans;
+  letter-spacing: 0px;
+  color: #414667;
+  opacity: 0.7;
+  margin-top: 0px;
+}
+.estimated {
+  text-align: left;
+  font: normal normal normal 22px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #414667;
+  padding-right: 0.5vw;
+}
+
+.ship-name {
+  width: 30%;
+}
+.ship-estimate {
+  padding-left: 20vw;
+  padding-top: 13vh;
+  display: -webkit-inline-box;
+}
+
+.estimate-date {
+  text-align: left;
+  font: normal normal bold 22px Open Sans;
+  letter-spacing: 0px;
+  color: #414667;
+  padding-top: 0.2vh;
+}
+
+.align-btn {
+  width: 10%;
+  padding-top: 17vh;
+  margin-left: 3vw;
+}
+
+.first {
+  text-align: left;
+  font: normal normal bold 18px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #414667;
+  padding-right: 0.5vw;
+}
+
+.second {
+  text-align: left;
+  font: normal normal normal 18px Open Sans;
+  letter-spacing: 0px;
+  color: #414667;
+  padding-top: 0.2vh;
+}
+
+.padding {
+  padding-left: 0px !important;
+}
+
+.departure-title {
+  text-align: left;
+  font: normal normal bold 22px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #0e0b6e;
+  opacity: 1;
+}
+.departure {
+  margin-right: 5vw;
+  margin-top: 5vh;
+  width: 20%;
+}
+.update {
+  text-align: left;
+  font-size: 18px;
+  font: normal normal normal 18px Open Sans;
+  letter-spacing: 0px;
+  color: #414667;
+  opacity: 1;
+  margin-top: 0.2vh;
+  padding-top: 5vh;
+}
+
+.minutes {
+  padding-left: 1vw;
+  text-align: left;
+  font: normal normal bold 22px Open Sans;
+  letter-spacing: 0px;
+  color: #0e0b6e;
+  opacity: 1;
+  padding-top: 5vh;
+}
+
+.graph {
+  width: 60vw;
+}
+
+.contact {
+  text-align: left;
+  font: normal normal bold 24px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #0e0b6e;
+  opacity: 1;
+  margin-top: 2vw;
+}
+
+.client {
+  text-align: left;
+  font: normal normal bold 20px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #414667;
+  opacity: 1;
+}
+
+.create-button {
+  width: 55%;
+  margin-left: 10vw;
+  background-color: #f06f63;
+  border-radius: 30px;
+  border-color: transparent;
+  outline: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 2vw;
+}
+#button-font {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.phone {
+  text-align: left;
+  font: normal normal normal 20px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #414667;
+  opacity: 1;
+}
+
+.email {
+  text-align: left;
+  font: normal normal normal 20px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #414667;
+  opacity: 1;
+}
+
+.client-info {
+  margin-top: 1vw;
+  margin-left: -5vw;
+}
+
+.supervisor-info {
+  margin-top: 1.2vw;
+  margin-left: 5vw;
+}
+
+.min {
+  margin-left: 2vw;
+  width: 80px;
+  margin-top: 0.5vw;
+}
+.sensor {
+  margin-left: 1vw;
+  width: 100px;
+  margin-top: 0.5vw;
+}
+
+.align-btn {
+  width: 10%;
+  padding-top: 8vh;
+  margin-left: -2vw;
+}
+
+.rotated:hover {
+  transform: rotate(180deg);
+}
+.rotated:active {
+  transform: rotate(180deg);
+}
+.rotated:focus {
+  transform: rotate(180deg);
+}
+
+.alignv {
+  padding-left: 0px !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .shipment-details-container {
+    margin-top: 2vh;
+  }
+  .display {
+    display: block;
+  }
+  .ship-title {
+    margin-top: 0px;
+    font: normal normal bold 22px Open Sans;
+  }
+
+  .ship-id {
+    font: normal normal bold 20px Open Sans;
+  }
+  .ship-estimate {
+    padding-top: 8vh;
+    padding-left: 0px;
+    display: block;
+  }
+  .estimated {
+    font: normal normal bold 20px Open Sans;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -5vw;
+  }
+  .estimate-date {
+    font: normal normal bold 18px Open Sans;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -5vw;
+  }
+  .align-btn {
+    width: 10%;
+    padding-top: -22vh;
+    padding-top: 3vh;
+    margin-left: -9vw;
+  }
+  .icon {
+    min-width: 5vw;
+  }
+
+  .alert {
+    font: normal normal bold 20px Open Sans;
+    width: fit-content;
+  }
+  .resp {
+    display: block;
+  }
+
+  .departure {
+    width: 100%;
+  }
+
+  .supervisor-info {
+    margin-top: 1vw;
+    margin-bottom: 1vh;
+  }
+}

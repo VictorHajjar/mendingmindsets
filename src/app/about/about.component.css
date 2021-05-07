@@ -1,0 +1,135 @@
+.row {
+  display: inline-flex;
+  padding-top: 1vh;
+}
+
+.container {
+  margin-left: 3vw;
+}
+.create-title {
+  text-align: left;
+  font: normal normal medium Proza Libre;
+  font-size: 40px;
+  line-height: 61px;
+  color: #0e0b6e;
+  padding-left: 10vh;
+}
+
+.vision-title {
+  text-align: left;
+  font: normal normal medium Proza Libre;
+  font-size: 40px;
+  line-height: 61px;
+  letter-spacing: 0px;
+  color: #0e0b6e;
+  padding-left: 27vh;
+}
+
+#about-us {
+  text-align: left;
+  font: normal normal normal 22px Open Sans;
+  color: #414667;
+  margin-bottom: 7px;
+  padding-left: 10vh;
+  width: 60%;
+}
+
+.customer-title {
+  text-align: left;
+  font: normal normal medium Proza Libre;
+  font-size: 40px;
+  line-height: 61px;
+  color: #0e0b6e;
+  padding-left: 10vh;
+}
+
+#customer {
+  text-align: left;
+  font: normal normal normal 22px Open Sans;
+  color: #414667;
+  padding-left: 10vh;
+  width: 70%;
+}
+
+#about {
+  margin-top: -5vw;
+  margin-right: 10vw;
+  max-width: 40vw;
+}
+
+#about-vision {
+  max-width: 30vw;
+  margin-top: -2vw;
+}
+
+#vision {
+  text-align: left;
+  font: normal normal normal 22px Open Sans;
+  color: #414667;
+  margin-bottom: 7px;
+  padding-left: 27vh;
+  width: 70%;
+}
+
+#service {
+  max-width: 30vw;
+  margin-right: 4vw;
+  margin-top: -2vw;
+}
+
+.row {
+  padding-left: 4vw;
+}
+
+.tv {
+  margin-top: -4vw;
+}
+
+.cust {
+  margin-top: -4vw;
+}
+
+@media only screen and (max-width: 700px) {
+  .row {
+    display: block;
+  }
+
+  .create-title {
+    padding-left: 2vh;
+    font: normal normal bold 20px Open Sans;
+  }
+  #about-us {
+    padding-left: 2vh;
+    font: normal normal normal 18px Open Sans;
+  }
+  #about-tv {
+    max-width: 60vw;
+  }
+  #about-truck {
+    max-width: 65vw;
+    padding-left: 2vh;
+  }
+
+  .vision-title {
+    padding-left: 2vh;
+    font: normal normal bold 20px Open Sans;
+  }
+
+  #vision {
+    padding-left: 3vh;
+    font: normal normal normal 18px Open Sans;
+  }
+
+  .customer-title {
+    padding-left: 2vh;
+    font: normal normal bold 20px Open Sans;
+  }
+
+  #customer {
+    padding-left: 3vh;
+    font: normal normal normal 18px Open Sans;
+  }
+  #service {
+    max-width: 65vw;
+  }
+}
