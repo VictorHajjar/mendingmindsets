@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { RegisterComponent } from '../register/register.component';
 
 @Component({
   selector: 'app-courses',
@@ -7,10 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CoursesComponent implements OnInit {
 
-  constructor() { }
 
   ngOnInit(): void {
   }
 
   panleExpanded=false;
+
+  constructor(private dialog:MatDialog) {}
+
+ 
+  openAddDialog(){
+    let dialogConfig = new MatDialogConfig();
+    dialogConfig.disableClose = false;
+      dialogConfig.autoFocus = true;
+      this.dialog.open(RegisterComponent,dialogConfig);
+    }
+  
 }

@@ -1,0 +1,91 @@
+.shipment-container {
+  justify-content: center;
+  margin-left: 3vw;
+}
+
+.display {
+  display: flex;
+  padding-top: 3vh;
+}
+
+.disp {
+  display: inline-block;
+  padding-top: 3vh;
+}
+
+.title {
+  text-align: left;
+  font: normal normal bold 25px Open Sans;
+  color: #0e0b6e;
+  margin-top: 0px;
+  padding-left: 0.5vw;
+}
+
+.inputs {
+  background: #eef3ff 0% 0%;
+  border-radius: 30px;
+  border: none;
+  padding: 18px 30px 18px 25px;
+  width: -webkit-fill-available;
+  max-width: 60%;
+}
+.inputs-3 {
+  background: #eef3ff 0% 0%;
+  border-radius: 30px;
+  border: none;
+  padding: 18px 30px 18px 25px;
+  width: -webkit-fill-available;
+  max-width: 220px;
+  margin-top: 1vh;
+}
+
+input[type="text"] {
+  text-align: left;
+  font: normal normal 300 18px/24px Open Sans;
+  letter-spacing: 0.18px;
+  color: #0e0b6e;
+  opacity: 0.7;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 2pt 1pt #0e0b6e;
+}
+
+.second-input {
+  min-width: 35vw;
+  margin-top: 1vw;
+}
+
+.titles-2 {
+  text-align: left;
+  font: normal normal bold 20px Open Sans;
+  color: #0e0b6e;
+}
+
+.titles-3 {
+  text-align: left;
+  font: normal normal bold 18px Open Sans;
+  color: #414667;
+  padding-left: 2px;
+}
+
+.submit {
+  background: #fe7568 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #0e0b6e26;
+  border-radius: 30px;
+  min-width: 300px;
+  border: none;
+}
+.submit:focus {
+  outline: none;
+  box-shadow: 0 0 2pt 2pt #eef3ff;
+}
+
+.submit-butt {
+  text-align: center;
+  font: normal normal bold 18px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}

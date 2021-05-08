@@ -9,6 +9,13 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { CoursesComponent } from './courses/courses.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { RegisterComponent } from './register/register.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatSelectModule } from '@angular/material/select';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,12 +25,23 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
     AboutComponent,
     ContactComponent,
     CoursesComponent,
+    RegisterComponent,
    
   ],
+  entryComponents:[RegisterComponent],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
-    IvyCarouselModule
+    IvyCarouselModule,
+    ReactiveFormsModule,
+    MatDialogModule,
+    MatSelectModule,
+    MatFormFieldModule,
+    MatInputModule,
+    NoopAnimationsModule,
+ 
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

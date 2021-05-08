@@ -1,0 +1,47 @@
+<div class="container shipment-container">  
+    <div class="row title ">
+        Register now
+    </div>
+    <form [formGroup]="ClientForm">
+        <div class="form-group row disp">
+            <div class="">
+                <input formControlName="Name"  required="required"  placeholder="Name" type="text" #shipmentId class="inputs" />
+            </div>
+            <div class="second-input">
+                <input formControlName="FamilyName"  required="required"  placeholder="FamilyName" type="text" #shipmenttitle class="inputs"/>
+            </div>
+        </div>
+
+
+    <div class="row display">
+        <div class="titles-2">
+            Contact Info
+        </div>
+    </div>
+
+
+  <div class="row display ">
+            <div class="col-6 client">
+                <div class="titles-3">
+                    Client
+                </div>
+                <div class="row">
+                    <input formControlName="email"  required="required"  placeholder="Email" 
+                    type="text"  class="inputs-3" #clientemail/>
+                </div>
+                <div class="row">
+                    <input formControlName="phone"  required="required"  placeholder="Phone Number" 
+                    type="text" class="inputs-3" #numberclient/>
+                </div>
+               
+            </div>
+        </div>
+
+    </form>
+    <div class="row display">
+        <div class="col-6">
+            <button class="submit" ><p class="submit-butt"> Submit</p></button>
+        </div>
+   
+
+</div> 
