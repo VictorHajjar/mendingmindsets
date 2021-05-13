@@ -24,6 +24,7 @@ export class UsersService {
 export interface User{
 	firstName:string;
 	lastName:string;
+	phone:string;
 	email:string;
 	course: Array<Course>;
 }

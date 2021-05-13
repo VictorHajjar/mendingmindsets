@@ -19,6 +19,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreService } from './services/core.service';
 import { CoursesService } from './services/courses.service';
 import { UsersService } from './services/users.service';
+import { CoursesDetailsComponent } from './courses-details/courses-details.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { UsersService } from './services/users.service';
     ContactComponent,
     CoursesComponent,
     RegisterComponent,
+    CoursesDetailsComponent,
    
   ],
   entryComponents:[RegisterComponent],
