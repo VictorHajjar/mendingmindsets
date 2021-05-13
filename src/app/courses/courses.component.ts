@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { RegisterComponent } from '../register/register.component';
+import { CoursesService, Course } from '../services/courses.service';
 
 @Component({
   selector: 'app-courses',
@@ -9,14 +10,21 @@ import { RegisterComponent } from '../register/register.component';
 })
 export class CoursesComponent implements OnInit {
 
-
+  courses:Array<Course>=[];
   ngOnInit(): void {
+    this.getAllCourses();
   }
 
   panleExpanded=false;
 
-  constructor(private dialog:MatDialog) {}
+  constructor(private dialog:MatDialog, private coursesService:CoursesService) {}
 
+
+  getAllCourses(){
+      this.coursesService.getAllCourses().subscribe((resp:any)=>
+        {this.courses=resp}
+        )
+  }
  
   openAddDialog(){
     let dialogConfig = new MatDialogConfig();

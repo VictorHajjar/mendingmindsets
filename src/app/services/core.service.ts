@@ -13,7 +13,6 @@ settings: any;
  getHeader() : HttpHeaders {
    let header: HttpHeaders= new HttpHeaders();
    header = header.set("Content-Type", "application/json" );
-   header = header.set("Authorization", `Bearer ${window.localStorage.getItem("Auth-Token")}`);
    return header;
 
   }
@@ -27,14 +26,6 @@ settings: any;
   constructor(private http: HttpClient) {
     
   }
-
-  postHeader(path:string,body:any):Observable<any>{
-   let header:HttpHeaders= new HttpHeaders();
-   header = header.set("Content-Type", "application/json" );
-  // header = header.set("Authorization", `Bearer ${window.localStorage.getItem("token")}`);
-   return this.http.post(path, body, { headers:header });
-  }
-
 
   get(path: string): Observable<any> {
     let headers:HttpHeaders = this.getHeader();
