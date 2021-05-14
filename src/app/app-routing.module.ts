@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 import {AboutComponent} from './about/about.component';
 import {ContactComponent} from './contact/contact.component';
+import { CoursesDetailsComponent } from './courses-details/courses-details.component';
 const routes: Routes = [
   {
     path:'welcome',component:WelcomepageComponent
@@ -18,7 +19,9 @@ const routes: Routes = [
     path:'contact',component:ContactComponent
 
   },
- 
+ {
+   path:'courses',component:CoursesDetailsComponent
+ }
 
 ];
 
@@ -27,3 +30,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
